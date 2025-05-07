@@ -1,5 +1,8 @@
 .main-navigation {
-  @apply bg-black;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.19);
 
   height: 82px;
 
@@ -17,22 +20,24 @@
       @apply !max-w-[51vw];
     }
 
+    /* background-color: #fff; */
+
     .controls-container {
       @apply w-full flex justify-between;
       @apply lg:w-auto lg:max-w-full lg:static lg:block lg:px-0;
 
       .logo-link {
-        @apply text-xl font-bold leading-relaxed inline-block py-4 whitespace-nowrap uppercase text-white;
+        @apply text-xl font-bold leading-relaxed inline-block py-3 whitespace-nowrap uppercase text-white;
 
         img {
           @apply w-auto;
 
-          height: 46px;
+          height: 66px;
         }
       }
 
       .items-toggle {
-        @apply text-white cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block outline-none w-8;
+        @apply cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block outline-none w-8;
         @apply focus:outline-none;
         @apply lg:hidden;
       }
@@ -48,6 +53,7 @@
 
       &.opened {
         @apply flex w-full z-50;
+        color: #fff;
       }
 
       &.closed {
@@ -60,15 +66,14 @@
         @apply lg:flex-row lg:items-center lg:p-0 lg:w-auto;
 
         .text-menu-item a {
-          @apply text-base leading-loose text-white;
-          @apply hover:text-yellow;
+          @apply text-base leading-loose;
+          @apply hover:text-[#DD8656];
           @apply lg:px-3;
         }
 
         .button-menu-item {
           a {
-            @apply mt-3 inline-block text-black;
-            @apply hover:text-white;
+            @apply mt-3 inline-block;
             @apply lg:ml-3 lg:mt-0;
           }
         }

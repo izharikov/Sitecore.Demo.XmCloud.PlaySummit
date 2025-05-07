@@ -24,7 +24,7 @@ const FeaturedVendors = (props: FeaturedVendorsProps): JSX.Element => {
   const isPageEditing = sitecoreContext.pageState === LayoutServicePageState.Edit;
   const hasVendors = !!props?.fields?.Vendors?.length;
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   !hasVendors && console.warn('Missing Datasource Item');
 

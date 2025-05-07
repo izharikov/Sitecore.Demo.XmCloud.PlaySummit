@@ -63,7 +63,7 @@ const socialIcons = {
 
 const Footer = (props: FooterProps): JSX.Element => {
   const newDate = new Date();
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const { t } = useI18n();
 
   return (

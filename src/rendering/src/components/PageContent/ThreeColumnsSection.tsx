@@ -26,7 +26,7 @@ export type ThreeColumnsSectionProps = ComponentProps & {
 };
 
 const ThreeColumnsSection = ({ fields, params }: ThreeColumnsSectionProps): JSX.Element => {
-  const sxaStyles = `${params?.styles || ''}`;
+  const sxaStyles = `${params?.Styles || ''}`;
 
   return (
     <section className={`section three-col-section ${sxaStyles}`}>

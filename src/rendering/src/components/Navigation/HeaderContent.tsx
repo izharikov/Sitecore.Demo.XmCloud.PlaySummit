@@ -17,7 +17,7 @@ const HeaderContent = (props: HeaderContentProps): JSX.Element => {
   const router = useRouter();
   const [languageLabels, setLanguageLabels] = useState([]);
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   const languageNames = new Intl.DisplayNames(['en'], {
     type: 'language',

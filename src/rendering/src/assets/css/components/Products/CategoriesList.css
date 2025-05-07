@@ -6,7 +6,7 @@
   }
 
   &-orange {
-    @apply bg-orange;
+    background: #DD8656;
   }
 
   &-pink {
@@ -14,7 +14,7 @@
   }
 
   &-yellow {
-    @apply bg-yellow;
+    background-color: #DD8656;
   }
 
   &-gray {

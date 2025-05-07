@@ -8,7 +8,7 @@ export type HeroSectionCtaProps = ComponentProps & {
 };
 
 const HeroSectionCta = ({ fields, params }: HeroSectionCtaProps): JSX.Element => {
-  const sxaStyles = `${params?.styles || ''}`;
+  const sxaStyles = `${params?.Styles || ''}`;
 
   return (
     <div className={`btn-area ${sxaStyles}`}>

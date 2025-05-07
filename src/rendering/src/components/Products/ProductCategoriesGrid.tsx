@@ -12,7 +12,7 @@ type ProductCategoriesProps = ComponentProps & {
 };
 
 const ProductCategoriesGrid = (props: ProductCategoriesProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   const categories =
     props.fields.Categories &&

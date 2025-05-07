@@ -21,7 +21,7 @@ const corsHeaderPlugin = (nextConfig = {}) => {
               value: config.sitecoreApiHost.replace(/\/$/, ''),
             },
           ],
-        },
+        }
       ];
     },
   });

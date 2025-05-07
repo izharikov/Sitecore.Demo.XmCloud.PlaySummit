@@ -17,7 +17,7 @@ type TestimonyListProps = ComponentProps & {
 };
 
 const TestimonyList = (props: TestimonyListProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   const testimonies =
     props.fields.Companies &&

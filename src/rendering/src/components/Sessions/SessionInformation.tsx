@@ -24,7 +24,7 @@ export type SessionInformationProps = ComponentWithChildrenProps & {
 
 const SessionInformation = (props: SessionInformationProps): JSX.Element => {
   const premiumSessionMetaValue = props.fields.Premium?.value ? 'true' : 'false';
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const { t } = useI18n();
 
   const placeholder = !!props.rendering && (

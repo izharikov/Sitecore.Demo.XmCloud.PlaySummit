@@ -6,16 +6,24 @@
 }
 
 .btn-base {
-  @apply font-medium text-center inline-block;
-  @apply py-2 px-6 transition-all;
+  @apply text-center inline-block;
+  @apply py-2 px-10 transition-all;
 }
 
 .btn-main,
 .btn--main {
   @apply btn-base;
-  @apply bg-yellow text-black rounded-md;
-  @apply hover:bg-yellow-dark hover:text-white;
-  @apply disabled:bg-yellow-dark disabled:cursor-not-allowed;
+  @apply disabled:cursor-not-allowed;
+
+  text-transform: uppercase;
+  background-color: #111F2A;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+
+  &:hover {
+    background-color: #DD8656;
+  }
 }
 
 .btn-square {

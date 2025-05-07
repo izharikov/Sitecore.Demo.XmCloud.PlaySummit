@@ -3,7 +3,7 @@ import OrderSummary from './OrderSummary';
 import TicketPaymentConfirmed from './TicketPaymentConfirmed';
 
 const PaymentConfirmed = (props: ComponentProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <div className={`payment-confirmed-page ${sxaStyles}`}>

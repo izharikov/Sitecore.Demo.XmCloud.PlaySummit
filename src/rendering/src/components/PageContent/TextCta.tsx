@@ -9,7 +9,7 @@ type TextCtaProps = ComponentProps & {
 };
 
 const TextCta = (props: TextCtaProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <section className={`text-cta ${sxaStyles}`}>

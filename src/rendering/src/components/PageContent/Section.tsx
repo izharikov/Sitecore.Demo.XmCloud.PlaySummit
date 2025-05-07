@@ -17,7 +17,7 @@ type SectionProps = ComponentWithChildrenProps & {
 };
 
 const Section = (props: SectionProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   const titleAndContent = props.fields && (
     <>

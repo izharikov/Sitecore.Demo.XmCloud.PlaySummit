@@ -17,7 +17,7 @@
     @apply w-full my-0 mx-auto box-border max-w-[1440px];
 
     .section-content-title {
-      @apply text-2xl font-bold pb-5 m-0 text-blue-light normal-case;
+      @apply text-2xl font-bold pb-5 m-0 normal-case;
       @apply md:text-5xl;
     }
 
@@ -57,7 +57,7 @@
       }
 
       .section-content-title {
-        @apply text-orange;
+        color: #DD8656;
       }
     }
   }

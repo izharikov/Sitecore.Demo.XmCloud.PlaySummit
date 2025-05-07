@@ -2,7 +2,7 @@ import { ComponentProps } from 'lib/component-props';
 import { useI18n } from 'next-localization';
 
 const SessionsFilters = (props: ComponentProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const { t } = useI18n();
 
   return (

@@ -21,7 +21,7 @@ type FullImageSectionProps = ComponentProps & {
 };
 
 const FullImageSection = ({ fields, params }: FullImageSectionProps): JSX.Element => {
-  const sxaStyles = `${params?.styles || ''}`;
+  const sxaStyles = `${params?.Styles || ''}`;
 
   const callToAction = fields.callToActionLink && (
     <Link field={fields.callToActionLink} className="btn-main" />

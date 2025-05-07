@@ -15,7 +15,7 @@ const AttendeeForm = (props: ComponentProps): JSX.Element => {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   useEffect(() => {
     const setUserData = async () => {

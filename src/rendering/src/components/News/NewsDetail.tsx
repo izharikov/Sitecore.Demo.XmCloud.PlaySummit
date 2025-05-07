@@ -22,7 +22,7 @@ type NewsDetailProps = ComponentProps & {
 };
 
 const NewsDetail = (props: NewsDetailProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <>

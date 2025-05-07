@@ -39,7 +39,7 @@
 
     &.accent-orange {
       .field-promoicon::before {
-        @apply bg-orange;
+        background: #DD8656;
       }
     }
 

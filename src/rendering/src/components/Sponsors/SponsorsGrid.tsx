@@ -23,7 +23,7 @@ const SponsorsGrid = (props: SponsorsGridProps): JSX.Element => {
   const isPageEditing = sitecoreContext.pageState === LayoutServicePageState.Edit;
   const hasSponsors = !!props.fields;
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   !hasSponsors && console.warn('Missing Datasource Item');
 

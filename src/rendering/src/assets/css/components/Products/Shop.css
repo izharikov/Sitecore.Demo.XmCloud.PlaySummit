@@ -11,7 +11,7 @@ div.shop-main-container {
 }
 
 p.shop-integration-error {
-  @apply text-center text-yellow font-bold;
+  @apply text-center text-[#DD8656] font-bold;
 }
 
 .continue-shopping-btn {

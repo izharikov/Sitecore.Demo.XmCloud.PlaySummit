@@ -99,7 +99,7 @@
         @apply bg-element bg-no-repeat bg-left-bottom bg-contain bg-blue pt-2;
 
         &.featured-speaker {
-          @apply bg-orange;
+          background: #DD8656;
         }
       }
     }

@@ -7,7 +7,7 @@
 
   &.price-orange {
     .price-base {
-      @apply text-orange;
+      color: #DD8656;
     }
   }
 
@@ -32,7 +32,7 @@
 
     &.price-orange {
       .price-final {
-        @apply text-orange;
+        color: #DD8656;
       }
     }
 

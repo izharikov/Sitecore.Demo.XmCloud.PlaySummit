@@ -11,7 +11,7 @@ header {
 }
 
 footer {
-  @apply bg-gradient-to-br from-black to-black-dark;
+  /* @apply bg-gradient-to-br from-black to-black-dark; */
 }
 
 .container {

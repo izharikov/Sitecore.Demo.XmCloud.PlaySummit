@@ -19,7 +19,7 @@ export type SummitFeatureProps = ComponentProps & {
 };
 
 const SummitFeature = (props: SummitFeatureProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <div className={`grid-item ${sxaStyles}`}>

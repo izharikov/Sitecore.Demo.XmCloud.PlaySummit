@@ -7,7 +7,7 @@
     }
 
     &-orange::before {
-      @apply bg-orange;
+      background: #DD8656;
     }
   }
 

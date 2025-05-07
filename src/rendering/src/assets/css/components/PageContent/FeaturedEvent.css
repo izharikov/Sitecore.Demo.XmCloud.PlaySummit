@@ -77,11 +77,11 @@
 
         .text-area {
           .section-title {
-            @apply text-orange;
+            color: #DD8656;
           }
 
           .event-subtitle {
-            @apply text-orange;
+            color: #DD8656;
           }
         }
       }

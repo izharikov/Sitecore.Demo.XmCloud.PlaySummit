@@ -71,6 +71,36 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{759CC242-D59B-4AD3-AACA-BFC7BB4DBAED}">
+              <p:da
+                name="ccb" />
+              <p:da
+                name="ds" />
+            </r>
+            <r
+              uid="{A6825205-E666-40E5-B6CA-F7E34929BB63}">
+              <p:da
+                name="ccb" />
+              <p:da
+                name="ds" />
+            </r>
+            <r
+              uid="{EE43A03C-755C-488A-B9BB-AAAC8E28DA05}">
+              <p:da
+                name="ccb" />
+              <p:da
+                name="ds" />
+            </r>
+          </d>
+        </r>
     - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
       Hint: Title
       Value: Demo Pages
@@ -82,7 +112,7 @@ Languages:
       Value: Demo Pages
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c948ff49-d640-4f9c-89ce-08a4f2fff95e"
+      Value: "9938f4e2-ae5e-40f5-a19a-92b56d8f2fa1"
     - ID: "e0c0c8a4-0fea-4963-8b86-d47810b80efa"
       Hint: Content
       Value: "Here is a list of all currently available demo pages:"

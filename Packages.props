@@ -22,5 +22,6 @@
     <PackageReference Update="Sitecore.Connector.CMP" Version="5.*" />
     <PackageReference Update="Sitecore.Connector.CMP.TaxonomyProvider" Version="5.*" />
     <!-- END CUSTOMIZATION -->
+    <PackageReference Update="Sitecore.XA.JSS.Feature.Navigation" Version="10.4.0" />
   </ItemGroup>
 </Project>

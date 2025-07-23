@@ -24,8 +24,10 @@ const nextConfig = {
     // DEMO TEAM CUSTOMIZATION - Remove unused languages and add some
     locales: [
       'en',
+      'ar',
       'fr-CA',
       'ja-JP',
+      'ru-RU'
     ],
     // END CUSTOMIZATION
     // This is the locale that will be used when visiting a non-locale

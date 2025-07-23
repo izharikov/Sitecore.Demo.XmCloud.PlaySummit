@@ -1,6 +1,5 @@
 import { EditingRenderMiddleware } from '@sitecore-jss/sitecore-jss-nextjs/editing';
-import { myEditingDataService } from 'lib/editing';
-// import { EditingDataCache } from 'lib/editing';
+// import { editingDataCache } from 'lib/editing';
 
 /**
  * This Next.js API route is used to handle POST requests from Sitecore editors.
@@ -34,15 +33,10 @@ export const config = {
 };
 
 // const redisDataService = new BasicEditingDataService({ 
-//   editingDataCache: new EditingDataCache(
-//     process.env.REDIS_DB_HOST,
-//     process.env.REDIS_DB_PASSWORD
-//   ) 
+//   editingDataCache: editingDataCache
 // });
 
 // Wire up the EditingRenderMiddleware handler
-const handler = new EditingRenderMiddleware({
-  editingDataService: myEditingDataService,
-}).getHandler();
+const handler = new EditingRenderMiddleware().getHandler();
 
 export default handler;

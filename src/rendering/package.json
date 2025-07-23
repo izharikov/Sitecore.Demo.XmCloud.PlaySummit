@@ -71,7 +71,7 @@
     "react-dom": "^18.2.0",
     "react-loading-skeleton": "^3.0.3",
     "react-redux": "^8.0.4",
-    "redis": "^5.0.1",
+    "redis": "4.6.14",
     "sass": "^1.52.3",
     "sass-alias": "^1.0.5",
     "sharp": "^0.32.6"

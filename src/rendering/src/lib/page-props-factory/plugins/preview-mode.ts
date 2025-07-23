@@ -5,12 +5,12 @@ import {
   getGroomedVariantIds,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import {
+  editingDataService,
   isEditingMetadataPreviewData,
 } from '@sitecore-jss/sitecore-jss-nextjs/editing';
 import { SitecorePageProps } from 'lib/page-props';
 import { graphQLEditingService } from 'lib/graphql-editing-service';
 import { Plugin } from '..';
-import { myEditingDataService } from 'lib/editing';
 
 class PreviewModePlugin implements Plugin {
   order = 1;
@@ -54,7 +54,7 @@ class PreviewModePlugin implements Plugin {
     // If we're in preview (editing) Chromes Edit Mode, use data already sent along with the editing request
     // This mode is used by the Experience Editor.
     // In Pages it's treated as a legacy mode but still supported for backward compatibility.
-    const data = await myEditingDataService.getEditingData(context.previewData);
+    const data = await editingDataService.getEditingData(context.previewData);
     if (!data) {
       throw new Error(
         `Unable to get editing data for preview ${JSON.stringify(context.previewData)}`

@@ -1,5 +1,5 @@
 import { EditingDataMiddleware } from '@sitecore-jss/sitecore-jss-nextjs/editing';
-import { editingDataDiskCache } from 'lib/editing';
+import { editingDataCache } from 'lib/editing';
 /**
  * This Next.js API route is used to handle Sitecore editor data storage and retrieval by key
  * on serverless deployment architectures (e.g. Vercel) via the `ServerlessEditingDataService`.
@@ -21,7 +21,7 @@ export const config = {
 
 // Wire up the EditingDataMiddleware handler
 const handler = new EditingDataMiddleware({
-  editingDataCache: editingDataDiskCache,
+  editingDataCache: editingDataCache
 }).getHandler();
 
 export default handler;

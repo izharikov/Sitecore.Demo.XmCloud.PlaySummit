@@ -3,6 +3,11 @@
 
   img {
     @apply w-full h-48 object-cover;
-    @apply md:h-96;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-image img {
+      height: 48rem;
   }
 }

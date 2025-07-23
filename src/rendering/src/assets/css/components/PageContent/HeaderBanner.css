@@ -17,7 +17,7 @@
     }
 
     .subtitle {
-      @apply text-yellow;
+      color: #DD8656;
     }
   }
 }

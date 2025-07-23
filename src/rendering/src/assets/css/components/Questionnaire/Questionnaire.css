@@ -30,7 +30,7 @@
           @apply relative border-yellow;
 
           &::after {
-            @apply text-yellow;
+            color: #DD8656;
           }
         }
 

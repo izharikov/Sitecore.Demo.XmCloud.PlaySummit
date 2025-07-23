@@ -67,7 +67,7 @@ body.search-facet-panel-open {
           @apply px-1 bg-white-dark;
 
           &.active {
-            @apply bg-yellow;
+            background-color: #DD8656;
           }
         }
       }

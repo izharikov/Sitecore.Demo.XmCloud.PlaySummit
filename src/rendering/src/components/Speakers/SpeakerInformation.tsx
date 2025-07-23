@@ -11,7 +11,7 @@ export type SpeakerInformationProps = ComponentWithChildrenProps & {
 };
 
 const SpeakerInformation = (props: SpeakerInformationProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const { t } = useI18n();
 
   const placeholder = !!props.rendering && (

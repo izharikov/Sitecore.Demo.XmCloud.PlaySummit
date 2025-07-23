@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { isCommerceEnabled } from '../../helpers/CommerceHelper';
-import { useI18n } from 'next-localization';
 import PreviewSearchWidget from '../PreviewSearchContent/PreviewSearchContent';
 import { isSearchSDKEnabled } from '../../services/SearchSDKService';
 
@@ -43,9 +42,8 @@ export type MainNavigationProps = ComponentProps & {
 
 const MainNavigation = (props: MainNavigationProps): JSX.Element => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const { t } = useI18n();
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   const shopLink = isCommerceEnabled && (
     <li className="text-menu-item">
@@ -88,11 +86,6 @@ const MainNavigation = (props: MainNavigationProps): JSX.Element => {
               </li>
             ))}
             {shopLink}
-            <li className="button-menu-item">
-              <Link href="/tickets" className="btn-main">
-                {t('Book Tickets') || 'Book Tickets'}
-              </Link>
-            </li>
           </ul>
           {isSearchSDKEnabled && (
             <div className="search-input-container">

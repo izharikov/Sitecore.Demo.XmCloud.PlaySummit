@@ -11,7 +11,7 @@ const SponsorizeForm = (props: ComponentProps): JSX.Element => {
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   useEffect(() => {
     const setUserData = async () => {

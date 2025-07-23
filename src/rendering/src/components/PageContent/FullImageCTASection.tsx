@@ -15,7 +15,7 @@ type FullImageCTASectionProps = ComponentProps & {
 };
 
 const FullImageCTASection = (props: FullImageCTASectionProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const callToAction = props.fields?.callToActionLink && (
     <Link field={props.fields?.callToActionLink} className="btn-square" />
   );

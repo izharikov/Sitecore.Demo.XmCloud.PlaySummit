@@ -1,4 +1,5 @@
 import { EditingRenderMiddleware } from '@sitecore-jss/sitecore-jss-nextjs/editing';
+// import { editingDataCache } from 'lib/editing';
 
 /**
  * This Next.js API route is used to handle POST requests from Sitecore editors.
@@ -25,11 +26,15 @@ import { EditingRenderMiddleware } from '@sitecore-jss/sitecore-jss-nextjs/editi
 export const config = {
   api: {
     bodyParser: {
-      sizeLimit: '2mb',
+      sizeLimit: '10mb',
     },
     responseLimit: false,
   },
 };
+
+// const redisDataService = new BasicEditingDataService({ 
+//   editingDataCache: editingDataCache
+// });
 
 // Wire up the EditingRenderMiddleware handler
 const handler = new EditingRenderMiddleware().getHandler();

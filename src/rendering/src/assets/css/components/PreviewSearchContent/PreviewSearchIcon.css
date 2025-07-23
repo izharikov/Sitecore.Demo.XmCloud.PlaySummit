@@ -4,6 +4,6 @@
 
   .search-input-play-hidden + &,
   .search-input-play-hidden + * + & {
-    @apply lg:text-yellow lg:right-0;
+    @apply lg:text-[#DD8656] lg:right-0;
   }
 }

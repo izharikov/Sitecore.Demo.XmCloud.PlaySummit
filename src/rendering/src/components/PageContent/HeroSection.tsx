@@ -21,7 +21,7 @@ export type HeroProps = ComponentProps & {
 };
 
 const HeroSection = (props: HeroProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   // React throws an error if the root element of the component is removed from the DOM.
   // The #cdp-audience-based-home-page-hero div outerHTML will be set by Sitecore Personalize.

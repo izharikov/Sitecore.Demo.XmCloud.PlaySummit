@@ -10,7 +10,7 @@ export type SponsorInformationProps = ComponentWithChildrenProps & {
 };
 
 const SponsorInformation = (props: SponsorInformationProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   const placeholder = !!props.rendering && (
     <Placeholder name="jss-entity-sidebar" rendering={props.rendering} />

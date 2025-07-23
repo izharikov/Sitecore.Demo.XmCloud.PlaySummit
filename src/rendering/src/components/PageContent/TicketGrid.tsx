@@ -12,7 +12,7 @@ const TicketGrid = (props: ComponentProps): JSX.Element => {
   const ticketOfferId = useTicketOfferId();
 
   const ticketsToDisplay = TICKETS.filter((ticket) => !ticket.isUpgrade);
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const { t } = useI18n();
 
   const handleTicketSelect = async () => {

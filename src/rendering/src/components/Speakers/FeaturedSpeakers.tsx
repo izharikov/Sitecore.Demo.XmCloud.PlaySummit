@@ -41,7 +41,7 @@ const FeaturedSpeakers = (props: FeaturedSpeakersProps): JSX.Element => {
   const isPageEditing = sitecoreContext.pageState === LayoutServicePageState.Edit;
   const hasSpeakers = !!props.fields?.data?.item;
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   !hasSpeakers && console.warn('Missing Datasource Item');
 

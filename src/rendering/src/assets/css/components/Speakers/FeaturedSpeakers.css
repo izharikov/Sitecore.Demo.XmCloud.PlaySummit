@@ -10,7 +10,8 @@
       @apply max-w-[265px] rounded-none;
 
       .item-image {
-        @apply bg-element bg-no-repeat bg-left-bottom bg-contain bg-orange;
+        @apply bg-element bg-no-repeat bg-left-bottom bg-contain;
+        background-color: #DD8656;
       }
 
       .item-details {

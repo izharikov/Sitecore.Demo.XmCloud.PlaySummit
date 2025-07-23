@@ -123,11 +123,11 @@
       }
 
       .name {
-        @apply text-orange;
+        color: #DD8656;
       }
 
       .title .information-type {
-        @apply text-orange;
+        color: #DD8656;
       }
     }
   }

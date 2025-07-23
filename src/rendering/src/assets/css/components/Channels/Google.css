@@ -94,7 +94,7 @@
   &:nth-child(6),
   &:nth-child(9) {
     .website-icon {
-      @apply text-yellow-darkest;
+      /* @apply text-yellow-darkest; */
     }
   }
 

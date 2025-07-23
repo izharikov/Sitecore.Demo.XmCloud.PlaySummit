@@ -22,7 +22,7 @@ export type FeaturedEventProps = ComponentProps & {
 };
 
 const FeaturedEvent = (props: FeaturedEventProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
   const { t } = useI18n();
 
   const speakersSection = props.fields?.Speakers.map((speaker) => (

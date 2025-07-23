@@ -12,7 +12,7 @@ const DynamicWelcomeMessage = (props: ComponentProps): JSX.Element => {
   const [message, SetMessage] = useState('');
   const router = useRouter();
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   useEffect(() => {
     const language: string = navigator.language

@@ -28,7 +28,7 @@ const InformationPageHero = (props: InformationPageHeroProps): JSX.Element => {
   ) : undefined;
 
   const lowerCaseQualificative = props.qualificative.toLowerCase();
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <section

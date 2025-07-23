@@ -85,14 +85,14 @@
 
     &-orange {
       .slanted-spacer {
-        @apply bg-orange;
+        background: #DD8656;
       }
 
       .ticket-name,
       .ticket-sale-price,
       .ticket-price,
       ul li svg {
-        @apply text-orange;
+        color: #DD8656;
       }
     }
 

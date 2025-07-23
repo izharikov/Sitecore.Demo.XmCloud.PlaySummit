@@ -23,7 +23,7 @@ const NewsList = (props: NewsListProps): JSX.Element => {
   const isPageEditing = sitecoreContext.pageState === LayoutServicePageState.Edit;
   const hasNews = !!props?.fields?.items?.length;
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   !hasNews && console.warn('Missing Datasource Item');
 

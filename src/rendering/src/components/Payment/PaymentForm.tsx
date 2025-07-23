@@ -3,7 +3,7 @@ import OrderSummary from './OrderSummary';
 import PaymentAndBillingForm from './PaymentAndBillingForm';
 
 const PaymentForm = (props: ComponentProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <div className={`payment-form ${sxaStyles}`}>

@@ -23,7 +23,7 @@ const NewsGrid = (props: NewsGridProps): JSX.Element => {
   const hasNews = !!props.fields;
   const publicUrl = getPublicAssetUrl();
 
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   !hasNews && console.warn('Missing Datasource Item');
 

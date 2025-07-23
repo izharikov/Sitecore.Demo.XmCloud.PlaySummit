@@ -8,6 +8,11 @@ class ComponentThemesPlugin implements Plugin {
 
   async exec(props: SitecorePageProps) {
     // Collect FEAAS, BYOC, SXA component themes
+    console.log('theme out', ...getComponentLibraryStylesheetLinks(
+      props.layoutData,
+      config.sitecoreEdgeContextId,
+      config.sitecoreEdgeUrl
+    ));
     props.headLinks.push(
       ...getComponentLibraryStylesheetLinks(
         props.layoutData,

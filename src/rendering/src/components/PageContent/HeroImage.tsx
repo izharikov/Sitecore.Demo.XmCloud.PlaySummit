@@ -8,7 +8,7 @@ type HeroImageProps = ComponentProps & {
 };
 
 const HeroImage = (props: HeroImageProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   if (props.fields?.hero?.value?.src) {
     return (

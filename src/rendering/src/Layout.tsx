@@ -3,6 +3,7 @@
  */
 import React, { useEffect } from 'react'; // DEMO TEAM CUSTOMIZATION - Log page views
 import Head from 'next/head';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // DEMO TEAM CUSTOMIZATION - Add LayoutServicePageState
 import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
@@ -37,6 +38,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   // DEMO TEAM CUSTOMIZATION - Log page views
   useEffect(() => {
     (async () => {
+      console.log('layoutData', layoutData)
       await trackViewEvent(route);
     })();
   }, [route]);
@@ -71,6 +73,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         ))}
         <meta name="robots" content="noindex" />
       </Head>
+
+      <SpeedInsights/>
 
       {/* root placeholder for the app, which we add components to using route data */}
       {/* DEMO TEAM CUSTOMIZATION - Add CSS classes when Sitecore editors are active. Add HeaderCdpMessageBar. Remove sections inner divs. */}

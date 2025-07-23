@@ -1,5 +1,6 @@
 body {
   @apply overflow-x-hidden;
+  font-family: "Eduflex-light";
 }
 
 /**
@@ -24,4 +25,24 @@ a:focus {
   @apply block flex-grow;
 
   line-height: 1;
+}
+
+
+
+@font-face {
+  font-family: 'Eduflex-light';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url('/assets/fonts/EuclidFlex-Light.ttf') format('woff2');
+}
+
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+  font-family: 'Euclid-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url('/assets/fonts/EuclidFlex-Regular.ttf') format('woff2');
 }

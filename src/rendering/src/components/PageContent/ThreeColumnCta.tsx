@@ -13,7 +13,7 @@ type ThreeColumnCtaProps = ComponentProps & {
 };
 
 const ThreeColumnCta = (props: ThreeColumnCtaProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <section className={`section three-columns-cta ${sxaStyles}`}>

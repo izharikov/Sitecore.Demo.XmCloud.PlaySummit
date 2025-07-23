@@ -2,7 +2,7 @@ import { ComponentWithChildrenProps } from 'lib/component-props';
 import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs';
 
 const SummitFeatures = (props: ComponentWithChildrenProps): JSX.Element => {
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const sxaStyles = `${props.params?.Styles || ''}`;
 
   return (
     <div className={`item-grid summit-features ${sxaStyles}`}>

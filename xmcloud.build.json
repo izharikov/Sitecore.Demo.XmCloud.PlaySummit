@@ -10,7 +10,7 @@
             "runCommand": "next:start"
         },
         "nextjsstarter": {
-            "path": "./examples/kit-nextjs-skate-park",
+            "path": "./src/kit-nextjs-skate-park",
             "nodeVersion": "22.22.0",
             "jssDeploymentSecret": "511cdfab92b7440db866ac0fb817b490",
             "enabled": true,
